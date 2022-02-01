@@ -11,7 +11,7 @@ uvicorn = {extras = ["standard"], version = "^0.15.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
-isort = "^5.9.3"
+isort = "^5.10.1"
 black = "^22.1"
 
 [build-system]
