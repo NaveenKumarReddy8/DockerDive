@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 services:
   web-app:
     build: .
@@ -10,7 +10,7 @@ services:
     volumes:
       - type: volume
         source: counter-vol
-        target: /code
+        target: /src
   redis:
     image: "redis:alpine"
     networks:

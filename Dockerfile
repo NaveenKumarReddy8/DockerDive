@@ -1,5 +1,5 @@
-FROM python:3.9
-LABEL maintainer="mr.naveen8@hotmail.com"
+FROM python:latest
+LABEL maintainer="mr.naveen8@gmail.com"
 COPY . /src
 WORKDIR /src
 RUN python -m pip install poetry
