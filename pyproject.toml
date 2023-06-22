@@ -6,7 +6,7 @@ authors = ["NaveenKumarReddy8 <mr.naveen8@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-fastapi = "^0.95.0"
+fastapi = "^0.98.0"
 uvicorn = {extras = ["standard"], version = "^0.21.1"}
 redis = "^4.5.3"
 jupyterlab = "^3.5.2"
